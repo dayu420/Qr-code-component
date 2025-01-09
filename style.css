@@ -60,7 +60,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 
 
@@ -70,16 +69,15 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 320px;
-    height: 499px;
+    max-width: 320px;
     border-radius: 20px;
     background-color: var(--white);
-    padding-bottom: 12px;
+    padding: 15px 20px 35px 15px;
 }
 
 .qr-code-img {
-    width: 288px;
-    height: 288px;
+    display: block;
+    max-width: 100%;
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -92,8 +90,7 @@ main {
     font-size: 2.2rem;
     color: var(--slate-900);
     line-height: 120%;
-    width: 80%;
-}
+}   
 
 .card-description {
     font-family: "Outfit", serif;
@@ -104,7 +101,6 @@ main {
     letter-spacing: 0.2px;
     color: var(--slate-500);
     line-height: 140%;
-    width: 80%;
     padding-top: 15px;
 }
 
