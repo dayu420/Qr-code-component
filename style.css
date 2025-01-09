@@ -70,9 +70,11 @@ main {
     justify-content: center;
     align-items: center;
     max-width: 320px;
+    width: 90%;
     border-radius: 20px;
     background-color: var(--white);
     padding: 15px 20px 35px 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 .qr-code-img {
